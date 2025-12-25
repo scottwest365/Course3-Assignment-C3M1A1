@@ -25,5 +25,5 @@ section {
     margin-bottom: 3%;
     padding: 5%;
     background-color: #b3b3b3;
-    color: #fff;   /* (4) Ensures readable text on the red background */
+    color: #000000;   /* Changed from white to black for Chicken, Beef, Sushi boxes */
 }
