@@ -1,24 +1,22 @@
 body {
+    background-color: #b3b3b3;
     color: #000000;
-    background-color: #b3b3b3; /* Grey background based on JPG reference */
     font-family: 'Oxygen', sans-serif;
-    line-height: 1.4;   /* (5) Improves readability */
+    line-height: 1.4;
 }
 
 .navbar {
     border: 0;
     border-radius: 0;
-    background-color: #b3b3b3; /* Matches page background */
 }
 
-/* (1) Bootstrap 4-compatible selector (replaces .navbar-default .navbar-brand) */
+/* Bootstrap 4-compatible selector */
 .navbar .navbar-brand {
     color: #000000;
 }
 
 h2 {
     margin-top: 20px;
-    color: #000000;
 }
 
 section {
@@ -26,6 +24,6 @@ section {
     margin-top: 7%;
     margin-bottom: 3%;
     padding: 5%;
-    background-color: #b3b3b3; /* Grey content panels */
-    color: #000000; /* Black text for readability */
+    background-color: #b3b3b3;
+    color: #000000;
 }
