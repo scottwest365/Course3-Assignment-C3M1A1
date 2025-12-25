@@ -1,5 +1,6 @@
 body {
-    color: #1c1c20;
+    color: #000000;
+    background-color: #b3b3b3; /* Grey background based on JPG reference */
     font-family: 'Oxygen', sans-serif;
     line-height: 1.4;   /* (5) Improves readability */
 }
@@ -7,15 +8,17 @@ body {
 .navbar {
     border: 0;
     border-radius: 0;
+    background-color: #b3b3b3; /* Matches page background */
 }
 
 /* (1) Bootstrap 4-compatible selector (replaces .navbar-default .navbar-brand) */
-.navbar .navbar-brand{
-    color: #1c1c20;
+.navbar .navbar-brand {
+    color: #000000;
 }
 
 h2 {
     margin-top: 20px;
+    color: #000000;
 }
 
 section {
@@ -23,6 +26,6 @@ section {
     margin-top: 7%;
     margin-bottom: 3%;
     padding: 5%;
-    background-color: rgba(255, 0, 0, .7);
-    color: #fff;   /* (4) Ensures readable text on the red background */
+    background-color: #b3b3b3; /* Grey content panels */
+    color: #000000; /* Black text for readability */
 }
