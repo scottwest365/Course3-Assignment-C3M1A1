@@ -1,5 +1,6 @@
 body {
     color: #1c1c20;
+    background-color: #ffffff; /* Matches the white portion in the JPG */
     font-family: 'Oxygen', sans-serif;
     line-height: 1.4;   /* (5) Improves readability */
 }
